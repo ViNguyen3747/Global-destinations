@@ -23,7 +23,7 @@ const Marker = ({ detail }) => {
             <Offcanvas className="details" show={showDetail} onHide={handleClose} placement='end'>
                 <div>
                     <CloseButton variant="white" onClick={handleClose} style={{ margin: '10px' }} />
-                    <img className="FQicon" src={foursquare} alt="PoweredByFourSquare" width="150px" height="10px" />
+                    <img className="FQicon" src={foursquare} alt="Powered By FourSquare" width="150px" height="10px" />
                 </div>
                 <Offcanvas.Header className="header">
                     <Offcanvas.Title ><img src={icon} alt={detail.id} /><div>{detail.name}</div></Offcanvas.Title>
