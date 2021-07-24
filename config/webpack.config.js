@@ -407,7 +407,6 @@ module.exports = function (webpackEnv) {
                     },
                   ],
                 ],
-
                 plugins: [
                   [
                     require.resolve('babel-plugin-named-asset-import'),
