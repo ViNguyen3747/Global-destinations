@@ -4,6 +4,7 @@ import CloseButton from 'react-bootstrap/CloseButton'
 import Offcanvas from 'react-bootstrap/Offcanvas'
 import { faCar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import foursquare from '../foursquare.png';
 import './marker.css';
 
 const Marker = ({ detail }) => {
@@ -22,7 +23,7 @@ const Marker = ({ detail }) => {
             <Offcanvas className="details" show={showDetail} onHide={handleClose} placement='end'>
                 <div>
                     <CloseButton variant="white" onClick={handleClose} style={{ margin: '10px' }} />
-                    <img className="FQicon" src="/powered-by-foursquare-white.png" alt="PoweredByFourSquare" width="150px" height="10px" />
+                    <img className="FQicon" src={foursquare} alt="PoweredByFourSquare" width="150px" height="10px" />
                 </div>
                 <Offcanvas.Header className="header">
                     <Offcanvas.Title ><img src={icon} alt={detail.id} /><div>{detail.name}</div></Offcanvas.Title>
