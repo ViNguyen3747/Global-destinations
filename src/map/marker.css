@@ -1,0 +1,32 @@
+.marker {
+    background-image: url('/src/pin.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.details {
+    background-color: rgba(35, 55, 75, 0.911);
+    font-family: monospace;
+    position: absolute;
+    color: white;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+}
+.detailsBody div{
+    margin-bottom: 20px;
+}
+
+.FQicon{
+    float: right;
+    margin: 10px;
+}
+.info {
+    color: white;
+    padding-top: 5px;
+}

@@ -1,0 +1,51 @@
+.map-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar {
+    background-color: rgba(35, 55, 75, 0.726);
+    color: black;
+    padding: 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    height: fit-content;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+}
+Form {
+    display: flex;
+}
+button {
+    background: none;
+    color: white;
+	border: none;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover, button:hover {
+    color:rgb(110, 167, 224);
+}
+
+::-webkit-scrollbar {
+    width: 13px; 
+    height: 13px;   
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(35, 55, 75, 0.911);
+}
+::-webkit-scrollbar-thumb {
+    background-color: white;    
+    border-radius: 30px;
+    border: 2px rgba(35, 55, 75, 0.911) solid;
+}
