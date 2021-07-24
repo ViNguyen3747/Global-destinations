@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Global-destinations/static/css/main.2b46b95e.chunk.css",
+    "main.css": "/Global-destinations/static/css/main.dde81497.chunk.css",
     "main.js": "/Global-destinations/static/js/main.5621d78e.chunk.js",
     "main.js.map": "/Global-destinations/static/js/main.5621d78e.chunk.js.map",
     "runtime-main.js": "/Global-destinations/static/js/runtime-main.09a4fcc3.js",
@@ -10,7 +10,7 @@
     "static/js/2.63a5baf8.chunk.js.map": "/Global-destinations/static/js/2.63a5baf8.chunk.js.map",
     "index.html": "/Global-destinations/index.html",
     "static/css/2.a323e487.chunk.css.map": "/Global-destinations/static/css/2.a323e487.chunk.css.map",
-    "static/css/main.2b46b95e.chunk.css.map": "/Global-destinations/static/css/main.2b46b95e.chunk.css.map",
+    "static/css/main.dde81497.chunk.css.map": "/Global-destinations/static/css/main.dde81497.chunk.css.map",
     "static/js/2.63a5baf8.chunk.js.LICENSE.txt": "/Global-destinations/static/js/2.63a5baf8.chunk.js.LICENSE.txt",
     "static/media/foursquare.24021c5e.png": "/Global-destinations/static/media/foursquare.24021c5e.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.09a4fcc3.js",
     "static/css/2.a323e487.chunk.css",
     "static/js/2.63a5baf8.chunk.js",
-    "static/css/main.2b46b95e.chunk.css",
+    "static/css/main.dde81497.chunk.css",
     "static/js/main.5621d78e.chunk.js"
   ]
 }
